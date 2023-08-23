@@ -1,0 +1,32 @@
+//PAGINA DE NOSOTROS
+
+//IMPORT VARIABLES
+@import "./variables";
+
+/*MI ESTILO DE QUIENES SOMOS*/
+
+.title-nosotros{
+    @extend %titulo;
+}
+
+.main-nosotros{
+    background-color:  #e6d3c0;
+}
+
+.nosotros{
+    background-color: rgb(235, 156, 142);
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #272727;
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+.nosotroshijo{
+    width: 100%;
+}

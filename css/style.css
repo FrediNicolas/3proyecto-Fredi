@@ -1,0 +1,210 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none;
+  color: black; }
+
+.title-nosotros, .header-principal, .paghombre {
+  background-color: #d8b9aa;
+  text-align: center; }
+
+/* Estilo de Formulario de Ingreso*/
+/* ESTILO DE REGISTRO */
+.pag-principal {
+  background-color: beige; }
+
+.formIngreso {
+  width: 400px;
+  background-color: #d8b9aa;
+  padding: 40px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  color: black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+
+.registropag {
+  width: 100%;
+  background-color: beige;
+  margin-bottom: 20px;
+  padding: 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  border: 2px #d8b9aa; }
+
+.condiciones {
+  text-decoration: none;
+  text-align: center;
+  color: black; }
+
+.tituloregistro {
+  font-size: 25px;
+  margin-bottom: 30px; }
+
+.boton {
+  width: 100%;
+  background: beige;
+  font-size: 15px;
+  color: black;
+  margin: 15px;
+  padding: 10px; }
+
+/* PAGINA DE OFERTAS */
+.header-all {
+  background-color: #d8b9aa;
+  text-align: center; }
+
+.navbar {
+  display: flex;
+  justify-content: end; }
+
+.subtitulo-oferta {
+  font-weight: 380;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #3D0C02;
+  text-align: center; }
+
+.ofertasimg {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  text-align: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: auto; }
+
+/*MI ESTILO DE QUIENES SOMOS*/
+.main-nosotros {
+  background-color: #e6d3c0; }
+
+.nosotros {
+  background-color: #eb9c8e;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  padding: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #272727;
+  border-radius: 5px;
+  border: 1px solid; }
+
+.nosotroshijo {
+  width: 100%; }
+
+/* ESTILO DE CONTACTO */
+.pag-principal {
+  background-color: #e6d3c0; }
+
+.formulario {
+  width: 400px;
+  background-color: #d8b9aa;
+  padding: 80px;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 10px;
+  color: black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+
+h4 {
+  font-size: 20px;
+  margin-bottom: 30px; }
+
+.contacto {
+  width: 100%;
+  background-color: beige;
+  margin-bottom: 20px;
+  padding: 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  border: 2px #d8b9aa; }
+
+/*ESTILO DE FOOTER*/
+.footer {
+  display: flex;
+  background-color: #d8b9aa;
+  text-align: center;
+  flex-wrap: nowrap;
+  align-items: stretch;
+  justify-content: space-around; }
+
+/*Estilo de pagina principal*/
+.pag-principal .galeria-inicio {
+  display: flex;
+  padding: 10px;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #e6d3c0; }
+
+.pag-principal .galeria-img {
+  max-width: 100%;
+  object-fit: cover; }
+
+.pag-principal p {
+  font-size: 16px;
+  line-height: 1.6; }
+
+.pag-principal .tituloinicio {
+  background-color: #e6d3c0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px; }
+
+/* Estilo pagina de Hombres*/
+h2, h3 {
+  background-color: #e6d3c0; }
+
+.hombreimg {
+  margin: 0;
+  background-color: #e6d3c0; }
+  .hombreimg .galeria-inicio {
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #e6d3c0; }
+  .hombreimg .galeria-img {
+    max-width: 100%;
+    object-fit: cover; }
+  .hombreimg p {
+    font-size: 16px;
+    line-height: 1.6; }
+  .hombreimg .tituloinicio {
+    background-color: #e6d3c0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px; }
+
+/* Media query para pantallas tablet */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .hombreimg {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px; }
+  .ofertasimg {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px; } }
+
+/* Media query para dispositivos de escritorio */
+@media screen and (min-width: 1024px) {
+  .hombreimg {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr); }
+  .ofertasimg {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px; } }

@@ -1,0 +1,12 @@
+@import "./variables";
+
+/*ESTILO DE FOOTER*/
+
+.footer{
+    display: flex;
+    background-color: #d8b9aa;
+    text-align: center;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    justify-content: space-around;
+}

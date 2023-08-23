@@ -1,0 +1,36 @@
+//importando variables
+
+@import "./variables";
+
+// Mediaqueries Generales
+
+/* Media query para pantallas tablet */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .hombreimg{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+        grid-template-rows: repeat(3, 1fr); 
+        gap: 10px; 
+    }
+  .ofertasimg{
+    display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+        grid-template-rows: repeat(3, 1fr); 
+        gap: 10px; 
+  }
+}
+
+  /* Media query para dispositivos de escritorio */
+@media screen and (min-width: 1024px) {
+    .hombreimg{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); 
+        grid-template-rows: repeat(2, 1fr); 
+    }
+    .ofertasimg{
+        display: grid;
+            grid-template-columns: repeat(3, 1fr); 
+            grid-template-rows: repeat(2, 1fr); 
+            gap: 10px;
+  }
+}

@@ -1,0 +1,68 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: black
+}
+
+    //IMPORT DE SCSS
+
+    //IMPORT DE VARIABLES    
+    @import "./extrascss/variables";
+
+    //IMPORT MIXIN
+    @import "./extrascss/mixin";
+
+    //IMPORT DE EXTEND
+    @import "./extrascss/extend";
+
+    //IMPORTANDO PAGINA DE REGISTRO
+    @import "./extrascss/registro";
+
+    //IMPORTANDO PAGINAS DE OFERTAS
+    @import "extrascss/pagoferta.scss";
+
+    //IMPORTANDO PAGINA DE NOSOTROS
+    @import "./extrascss/nosotros";
+
+    //IMPORTANDO PAGINA DE CONTACTO
+    @import "./extrascss/contacto";
+
+    //IMPORTANDO PÁGINA DE FOOTER
+
+    @import "./extrascss/footer";
+
+    /*Estilo de pagina principal*/
+
+    .pag-principal{
+
+        @include principal;      
+    }
+    
+    .header-principal{
+        @extend %titulo;
+    }
+
+    /* Estilo pagina de Hombres*/
+
+   .paghombre{
+    @extend %titulo; 
+   }
+   h2,h3{
+    background-color: $color-font;
+   }
+    .hombreimg{
+        @include principal;
+        margin: 0;
+        background-color: $color-font;
+    }
+
+    //importando mediaqueries
+    @import "./extrascss/mediaqueries"
+
+
+

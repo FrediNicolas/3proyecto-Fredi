@@ -1,0 +1,41 @@
+//mixin
+
+@import "./variables";
+
+
+@mixin footer{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    text-decoration: none;
+    
+}
+
+@mixin principal{
+    .galeria-inicio{
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #e6d3c0; 
+}
+.galeria-img{
+    max-width: 100%;
+    object-fit: cover;
+}
+
+p{
+    font-size: 16px;
+    line-height: 1.6;
+}
+.tituloinicio{
+    background-color: $color-font;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+}
+}
+
